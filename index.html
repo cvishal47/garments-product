@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind UI Pages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- 🌐 Navigation Bar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="next gen software.jpg" alt="Logo" class="h-10 w-10 rounded-full" />
+        <h1 class="text-xl font-bold text-blue-700">Next Gen UI</h1>
+      </div>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+        <a href="#blog" class="text-gray-700 hover:text-blue-600">Blog</a>
+        <a href="#event" class="text-gray-700 hover:text-blue-600">Event</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+        <a href="#subscribe" class="text-gray-700 hover:text-blue-600">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 📦 Product Card -->
+    <h2 class="text-4xl font-bold  text-center hover text-blue-600 rounded shadow">Garments Product</h2>
+  <section id="products" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images1.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-blue-700">Product One</h3>
+        <p class="text-sm text-gray-600 mt-2">High-quality tech gadget to boost your productivity.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹499</p>
+        <button class="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition">Buy Now</button>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images2.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-gradient-to-br from-white to-green-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image3.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-green-700">Product Three</h3>
+        <p class="text-sm text-gray-600 mt-2">Eco-friendly and innovative gadget for smart living.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹1,299</p>
+        <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-green-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image4.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-green-700">Product four</h3>
+        <p class="text-sm text-gray-600 mt-2">standard shirt</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹1,199</p>
+        <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-green-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image5.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-green-700">Product five</h3>
+        <p class="text-sm text-gray-600 mt-2">awesome  T-shirt</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹999</p>
+        <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-green-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image6.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-green-700">Product Three</h3>
+        <p class="text-sm text-gray-600 mt-2">Eco-friendly standard jeans</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹1,599</p>
+        <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image7.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images8.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="image9.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images10.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images11.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+      <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 text-center transform transition duration-300 hover:scale-105">
+        <img src="images12.jpg" class="mx-auto mb-4 rounded shadow" />
+        <h3 class="text-xl font-bold text-purple-700">Product Two</h3>
+        <p class="text-sm text-gray-600 mt-2">Modern accessory perfect for everyday use.</p>
+        <p class="text-2xl font-bold text-green-600 mt-4">₹899</p>
+        <button class="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full shadow hover:bg-purple-700 transition">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📰 Blog Post Layout -->
+  <section id="blog" class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <article class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+        <h2 class="text-3xl font-extrabold mb-2 text-purple-700">The Future of Web Development</h2>
+        <p class="text-sm text-gray-500 mb-4">Published on June 24, 2025</p>
+        <p class="text-gray-700 leading-relaxed">
+          Web development continues to evolve with new frameworks, design systems, and deployment strategies. Stay ahead with this guide that walks through all major trends of 2025 and beyond...
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 📅 Event Countdown (static) -->
+  <section id="event" class="py-20 bg-white text-center">
+    <h2 class="text-4xl font-bold mb-6 animate-plus">🎉 Launch Event in</h2>
+    <div class="flex justify-center gap-6 text-xl font-semibold">
+      <div class="bg-blue-100 rounded-lg p-4 shadow-md">
+        <span class="block text-blue-600 text-4xl font-bold">15</span>
+        <span class="text-sm">Days</span>
+      </div>
+      <div class="bg-blue-100 rounded-lg p-4 shadow-md">
+        <span class="block text-blue-600 text-4xl font-bold">05</span>
+        <span class="text-sm">Hours</span>
+      </div>
+      <div class="bg-blue-100 rounded-lg p-4 shadow-md">
+        <span class="block text-blue-600 text-4xl font-bold">25</span>
+        <span class="text-sm">Minutes</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📨 Newsletter Subscribe Page -->
+  <section id="subscribe" class="py-20 bg-gradient-to-r from-blue-50 to-purple-100">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-extrabold text-blue-800 mb-4">Subscribe to Our Newsletter</h2>
+      <p class="mb-6 text-gray-700">Get updates on new courses, blogs, and offers directly in your inbox.</p>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-full border w-full sm:w-2/3 focus:ring-2 focus:ring-blue-400 transition" />
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-full shadow hover:bg-blue-700 transition">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 🔚 Footer Section -->
+  <footer class="bg-white border-t py-10">
+    <div class="max-w-7xl mx-auto px-4 grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm text-gray-600">
+      <div>
+        <h3 class="text-gray-800 font-semibold mb-2">Next Gen UI</h3>
+        <p>Crafting modern responsive UIs using Tailwind CSS.</p>
+      </div>
+      <div>
+        <h3 class="text-gray-800 font-semibold mb-2">Links</h3>
+        <ul class="space-y-1">
+          <li><a href="#products" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#blog" class="hover:text-blue-600">Blog</a></li>
+          <li><a href="#event" class="hover:text-blue-600">Event</a></li>
+          <li><a href="#subscribe" class="hover:text-blue-600">Subscribe</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-gray-800 font-semibold mb-2">Support</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Help Center</a></li>
+          <li><a href="#" class="hover:text-blue-600">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-blue-600">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-gray-800 font-semibold mb-2">Contact</h3>
+        <p>Email: vishalkr952556@gmail.com</p>
+        <p>Phone: +91 9534031148</p>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 mt-10">&copy; 2025 Next Gen UI. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
